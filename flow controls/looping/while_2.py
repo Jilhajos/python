@@ -20,3 +20,12 @@
 
 #--------------------------------------------------------------------------------------------------------------------#
 
+# find the sum of numbers from lower to upper range
+
+lower=int(input("enter the lower range: "))
+upper=int(input("enter the upper range: "))
+s=0
+while lower<=upper:
+    s+=lower
+    lower+=1
+print(s)
